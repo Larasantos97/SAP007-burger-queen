@@ -1,7 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import firebase from '../lib/config-firebase';
+import auth from '../lib/auth-firebaseauth'
 
 function App() {
+  firebase();
+  auth();
   return (
     <div className="App">
       <header className="App-header">
